@@ -19,16 +19,14 @@ XSI was developed and tested with Xcode 4.2.1.
 
 ## Build Instructions
 
-You might want to make a [class dump](http://www.codethecode.com/projects/class-dump/) of the DevToolsCore framework of your development environment.
+You might want to make a [class dump](http://www.codethecode.com/projects/class-dump/) of the DevToolsCore framework of your development environment (there is a class dump in `Source/Libraries/DevToolsCoreHeader`):
  
 `class-dump -H -S -I /Developer/Library/PrivateFrameworks/DevToolsCore.framework/DevToolsCore`
 
+You need to install boost (e.g. via homebrew):
+`brew install boost`
 
-INstall boost:
-brew install boost
-
-cp ~/bin/xcodescript /usr/local/bin/
-
+Open the Xcode project and build both targets.
 
 ## Contact
 
