@@ -119,7 +119,7 @@ static NSConnection *connection;
     
     if (project == nil)
     {
-        NSLog(@"Project not found.");
+        NSLog(@"Project `%@` not found.", projectPath);
         return NO;
     }
     
@@ -131,7 +131,7 @@ static NSConnection *connection;
     
     if (target == nil)
     {
-        NSLog(@"Target not found.");
+        NSLog(@"Target `%@` not found.", targetName);
         return NO;
     }
     
@@ -166,7 +166,7 @@ static NSConnection *connection;
     
     if (project == nil)
     {
-        NSLog(@"Project not found.");
+        NSLog(@"Project `%@` not found.", projectPath);
         return NO;
     }
     
@@ -178,7 +178,7 @@ static NSConnection *connection;
     
     if (target == nil)
     {
-        NSLog(@"Target not found.");
+        NSLog(@"Target `%@` not found.", targetName);
         return NO;
     }
     
