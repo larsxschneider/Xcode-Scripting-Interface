@@ -15,7 +15,9 @@ XSI was developed and tested with Xcode 4.2.1.
 
 3. Move `xcodescript` to `/usr/local/bin/` (or anywhere else in your path)
 
-4. Type `xcodescript --help`
+4. Install boost (e.g. via homebrew):`brew install boost` (later on I will include this library)
+
+5. Type `xcodescript --help`
 
 ## Build Instructions
 
